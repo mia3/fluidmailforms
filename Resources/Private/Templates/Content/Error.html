@@ -1,0 +1,56 @@
+{namespace flux=FluidTYPO3\Flux\ViewHelpers}
+<f:layout name="Content"/>
+<f:section name="Configuration">
+	<flux:form id="error">
+		<flux:field.custom name="info">
+
+			<div class="alert alert-warning">
+				<div class="media">
+					<div class="media-left">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-exclamation fa-stack-1x"></i>
+						</span>
+					</div>
+					<div class="media-body">
+						<h4 class="alert-title">Warning</h4>
+
+						<div class="alert-message">
+							<f:translate key="tt_content.tx_fed_fcefile.emptyMessageinBackend"/>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</flux:field.custom>
+	</flux:form>
+</f:section>
+
+<f:section name="Preview">
+
+	<div class="alert alert-warning">
+		<div class="media">
+			<div class="media-left">
+						<span class="fa-stack fa-lg">
+							<i class="fa fa-circle fa-stack-2x"></i>
+							<i class="fa fa-exclamation fa-stack-1x"></i>
+						</span>
+			</div>
+			<div class="media-body">
+				<h4 class="alert-title">Warning</h4>
+
+				<div class="alert-message">
+					<f:translate key="tt_content.tx_fed_fcefile.emptyMessageinBackend"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</f:section>
+
+<f:section name="Main">
+	<div style="background:#ff0; color:#000; padding: 20px; margin:20px;">
+		<f:translate key="tt_content.tx_fed_fcefile.emptyMessage"/>
+		<br> <br> Content uid: [{record.uid}]
+	</div>
+</f:section>

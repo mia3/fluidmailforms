@@ -1,0 +1,19 @@
+{
+    "name": "mia3/fluidforms",
+    "description": "Create Flexible Forms in pure fluid",
+    "require": {
+        "fluidtypo3/flux": "*",
+        "fluidtypo3/fluidcontent": "*",
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "fluidtypo3/development": "*",
+        "fluidtypo3/flux": "dev-development"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mia3\\Fluidforms\\": "Classes/"
+        }
+    },
+    "type": "typo3-cms-extension"
+}
