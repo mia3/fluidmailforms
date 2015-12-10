@@ -4,7 +4,7 @@ if (!defined ('TYPO3_MODE')) {
 }
 
 \TYPO3\CMS\Extbase\Utility\ExtensionUtility::configurePlugin(
-	'Mia3.Fluidforms',
+	'Mia3.Fluidmailforms',
 	'Form',
 	array(
 		'Form' => 'render',
@@ -14,4 +14,4 @@ if (!defined ('TYPO3_MODE')) {
 	\TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT
 );
 
-\FluidTYPO3\Flux\Core::registerConfigurationProvider('Mia3\Fluidforms\Provider\FormProvider');
+\FluidTYPO3\Flux\Core::registerConfigurationProvider('Mia3\Fluidmailforms\Provider\FormProvider');

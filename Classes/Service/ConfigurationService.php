@@ -1,5 +1,5 @@
 <?php
-namespace Mia3\Fluidforms\Service;
+namespace Mia3\Fluidmailforms\Service;
 
 /*
  * This file is part of the FluidTYPO3/Fluidcontent project under GPLv2 or later.

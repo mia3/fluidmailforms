@@ -1,5 +1,5 @@
 <?php
-namespace Mia3\Fluidforms\Provider;
+namespace Mia3\Fluidmailforms\Provider;
 
 /*
  * This file is part of the Mia3\Fluidforms project under GPLv2 or later.
@@ -44,11 +44,11 @@ class FormProvider extends ContentProvider implements ProviderInterface {
 	/**
 	 * @var string
 	 */
-	protected $extensionKey = 'fluidforms';
+	protected $extensionKey = 'fluidmailforms';
 
 	/**
 	 * @var string
 	 */
-	protected $contentObjectType = 'fluidforms_form';
+	protected $contentObjectType = 'fluidmailforms_form';
 
 }

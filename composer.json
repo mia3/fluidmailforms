@@ -1,5 +1,5 @@
 {
-    "name": "mia3/fluidforms",
+    "name": "mia3/fluidmailforms",
     "description": "Create Flexible Forms in pure fluid",
     "require": {
         "fluidtypo3/flux": "*",
@@ -8,11 +8,11 @@
     },
     "require-dev": {
         "fluidtypo3/development": "*",
-        "fluidtypo3/flux": "dev-development"
+        "fluidtypo3/fluidcontent": "dev-development"
     },
     "autoload": {
         "psr-4": {
-            "Mia3\\Fluidforms\\": "Classes/"
+            "Mia3\\Fluidmailforms\\": "Classes/"
         }
     },
     "type": "typo3-cms-extension"

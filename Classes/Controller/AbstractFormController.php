@@ -1,5 +1,5 @@
 <?php
-namespace FluidTYPO3\Fluidcontent\Controller;
+namespace Mia3\Fluidmailforms\Controller;
 
 /*
  * This file is part of the FluidTYPO3/Fluidcontent project under GPLv2 or later.
