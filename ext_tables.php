@@ -10,3 +10,5 @@ if (!defined ('TYPO3_MODE')) {
 	'fluidmailforms_form',
 	\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extRelPath('fluidmailforms') . 'ext_icon.gif'
 ), \TYPO3\CMS\Extbase\Utility\ExtensionUtility::PLUGIN_TYPE_CONTENT_ELEMENT, 'Mia3.Fluidmailforms');
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes('tt_content', 'pi_flexform', 'fluidmailforms_form', 'after:header');
